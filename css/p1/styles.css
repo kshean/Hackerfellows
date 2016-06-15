@@ -1,0 +1,48 @@
+body{
+  margin:0;
+  background:white;
+}
+
+img{
+  margin-bottom: 2em;
+  
+  
+}
+
+p{
+  text-align: center;
+  
+}
+h1, h2, h3 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.header{
+  background:#B10DC9;
+  position:fixed;
+  width:100%;
+  
+}
+
+.footer{
+  background:#B10DC9;
+  width:100%;
+  
+}
+
+.rows{
+  width:600px;
+  padding-top:18em;
+  background: white;
+  margin-bottom: 6em;
+  margin: 0 auto;
+ 
+}
+
+.row{
+  display: flex;
+  margin: auto;
+  
+}
+
