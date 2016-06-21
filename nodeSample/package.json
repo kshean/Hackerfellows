@@ -1,0 +1,28 @@
+{
+  "name": "nodesample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-complexity": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-fixmyjs": "^1.0.2",
+    "gulp-htmlhint": "^0.3.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Shean Krolicki",
+  "license": "ISC"
+}
