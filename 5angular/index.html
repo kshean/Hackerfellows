@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>View Contorl</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.16/angular-route.js"></script>
+        <script src="app.js"></script>
+        <script src="controllers.js"></script>
+        <script src="services.js"></script>
+    </head>
+    <body ng-app="myModule">
+    <h1>View Controller</h1>
+        
+    <h2>This will not change!</h2>
+    <a href="#/view2">Go to View 2</a> | <a href="#/">Go to View 1</a> | <a href="#/view3">Go to View 3</a> 
+    <div ng-view=""></div>
+       
+        
+    
+
+    </body>
+
+    
+</html>
